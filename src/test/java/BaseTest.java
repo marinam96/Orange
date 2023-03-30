@@ -10,7 +10,8 @@ public class BaseTest {
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-    driver.navigate().to("")
+    driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
+    return driver;
 
     }
 }
